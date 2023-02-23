@@ -1,0 +1,636 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container-fluid img{
+    height: 30px;
+    width: 30px;
+    
+
+}
+.navbar-fluid {
+    color: #fcd535;
+    font-weight: 20px;
+    
+}
+.nav-link {
+    text-decoration: none;
+}
+.min-navbar {
+    height: 30px;
+    text-align: center;
+    background-color:#ffd52c9a;
+}
+
+
+
+
+
+
+
+.page-1{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(242, 246, 246);
+    display: flex;
+}
+.side-one{
+  height: 400px;
+  width: 50%;
+  background-color: rgb(245, 248, 247);
+  margin: 90px 0px;
+  padding: 0px 70px;
+  font-family: Arial , sans-serif;
+  
+}
+.side-two img{
+    height: 420px;
+}
+.gift-icon{
+    padding: 0px 30px;
+    margin: 90px 0px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gift-icon i{
+    color: #fcd535;
+}
+.sign-btn i p{
+    height: 40px;
+    width: 200px;
+    background-color: #fcd535;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+.timer-pag{
+    height: 220px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+
+.doller {
+    height: 200px;
+    width: 250px;
+    
+    padding: 30px 10px;
+
+}
+.number{
+    height: 200px;
+    width: 250px;
+
+    padding: 30px 10px;
+}
+
+.milion{
+    height: 200px;
+    width: 250px;
+    
+    padding: 30px 10px;
+}
+
+.percent{
+    height: 200px;
+    width: 250px;
+
+    padding: 30px 10px;
+}
+
+
+
+
+.dectop{
+    width: 100%;
+    padding: 5px 80px;
+    border-radius: 10px;
+}
+.dectop img{
+    border-radius: 30px;
+}
+
+
+
+.table{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px 100px;
+}
+
+.pic-1 {  
+    height: 32px;   
+    width: 32px;
+}
+.pic-2{
+    height: 32px;   
+    width: 32px;
+}
+.pic-3{
+    height: 32px;   
+    width: 32px;
+}
+.pic-4{
+    height: 32px;   
+    width: 32px;
+}
+.pic-5{
+    height: 32px;   
+    width: 32px;
+}
+
+
+
+
+
+.hading-btn {
+    height: 120px;
+    width: 100%;
+    
+    padding: 10px 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.btn{
+    height: 50px;
+    width: 190px;
+    background-color: #fcd535;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+
+
+.page-three{
+    height: 270px;
+    width: 90%;
+    background-color: rgb(252, 235, 236);
+    display: flex;
+    margin: 30px 80px;
+    border-radius: 20px;
+}
+.mini-page-three img{
+    height: 235px;
+    width: 325px;
+    margin: 0px 90px;
+}
+.pera-line{
+    margin: 50px 100px;
+    width: 550px;
+
+
+}
+
+
+#bay{
+   width: 230px;
+   margin: 20px 0px;
+}
+
+
+
+    /*portfolio*/
+
+    .portfolio{
+        height: 600px;
+        width: 90%;
+        margin: 0px 80px;
+        background-color: rgb(105, 113, 113);
+        display: flex;
+        justify-content: space-between;
+     }   
+     .portfolio-text{
+        height: 600px;
+        width: 50%;
+        padding: 20px 50px;
+        font-weight:bold ;
+        
+     }
+     .Verify{
+        display: flex;
+        gap: 50px;
+     }
+     .verifiy-img img{
+    
+     }
+     .hading h3 {
+        height: 50px;
+        padding: -2px 10px;
+        
+     }
+     .Verify-2{
+        display: flex;
+        gap: 50px;
+     }
+     .hading2 h3{
+        height: 40px;
+        
+        padding: -2px 30px;
+        
+     }
+     .Verify-3{
+        display: flex;
+        gap: 50px;
+     }
+     .hading3 h3 {
+        height: 40px;
+    
+        padding: -1px 30px;
+        font-size: 30px;
+     }
+    .portfolio-picture{
+        height: 600px;
+        width: 40%;
+        
+
+        
+     }
+     #portfolio-img img{
+        height: 585px;
+        width: 290px;
+        margin: 10px 100px;
+     }
+
+     .btn-two{
+        width: 90%;
+        padding: 10px 90px;
+        background-color: rgb(105, 113, 113);
+        margin: 0px 80px;
+     }
+
+
+
+
+     .tokin{
+        height: 700px;
+        width: 90%;
+        background-color: rgb(249, 253, 252);
+        margin: 0px 80px;
+     }
+     .tokin-hading{
+        padding: 20px 30px;
+     }
+     .tokin-hading p{
+        color: gray;
+        font-size: 20px;
+     }
+
+     .tokin-card1{
+        height: 300px;
+        width: 1211px;
+        background-color: rgb(232, 236, 232);
+        padding: 20px 20px;
+        display: flex;
+        gap: 20px;
+        
+     }
+    .tokin-one{
+        height: 250px;
+        width: 260px;
+        background-color: #ffcc00;
+        
+     }
+     .tokin-one img{
+            height: 50px;
+            width: 50px;
+            margin: 20px 80px;
+            border-radius: 50px;        
+     }
+     .tokin-one h4{
+        padding: 5px 75px;
+     }
+     .tokin-one p{
+         padding: 0px 30px;
+         color: rgb(179, 177, 177);
+     }
+     .tokin-one p b{
+        color: #03a66d;
+     }
+     .tokin-one #round{
+        border-radius:50px;
+        height: 40px;
+        margin: 0px 85px;
+        width: 40px;
+        padding:0px;
+        background-color: rgb(210, 210, 210);
+        border: none;
+        color: black;
+     }
+    .tokin-two{
+        height: 250px;
+        width: 260px;
+        background-color: #ffcc00;
+        
+     }
+     .tokin-two img{
+        height: 50px;
+        width: 50px;
+        margin: 20px 80px;
+        border-radius: 50px;        
+ }
+ .tokin-two h4{
+    padding: 5px 75px;
+ }
+ .tokin-two p{
+     padding: 0px 30px;
+     color: rgb(179, 177, 177);
+ }
+ .tokin-two p b{
+    color: #03a66d;
+ }
+ .tokin-two #round{
+    border-radius:50px;
+    height: 40px;
+    margin: 0px 85px;
+    width: 40px;
+    padding:0px;
+    background-color: rgb(210, 210, 210);
+    border: none;
+    color: black;
+ }
+    .tokin-three{
+        height: 250px;
+        width: 260px;
+        background-color: #ffcc00;
+        
+     }
+     .tokin-three img{
+        height: 50px;
+        width: 50px;
+        margin: 20px 80px;
+        border-radius: 50px;        
+ }
+ .tokin-three h4{
+    padding: 5px 75px;
+ }
+ .tokin-three p{
+     padding: 0px 30px;
+     color: rgb(179, 177, 177);
+ }
+ .tokin-three p b{
+    color: #03a66d;
+ }
+ .tokin-three #round{
+    border-radius:50px;
+    height: 40px;
+    margin: 0px 85px;
+    width: 40px;
+    padding:0px;
+    background-color: rgb(210, 210, 210);
+    border: none;
+    color: black;
+ }
+    .tokin-four{
+        height: 250px;
+        width: 260px;
+        background-color: #ffcc00;
+        
+     }
+     .tokin-four img{
+        height: 50px;
+        width: 50px;
+        margin: 20px 80px;
+        border-radius: 50px;        
+ }
+ .tokin-four h4{
+    padding: 5px 75px;
+ }
+ .tokin-four p{
+     padding: 0px 30px;
+     color: rgb(179, 177, 177);
+ }
+ .tokin-four p b{
+    color: #03a66d;
+ }
+ .tokin-four #round{
+    border-radius:50px;
+    height: 40px;
+    margin: 0px 85px;
+    width: 40px;
+    padding:0px;
+    background-color: rgb(210, 210, 210);
+    border: none;
+    color: black;
+ }
+    .tokin-five{
+        height: 250px;
+        width: 260px;
+        background-color: #ffcc00;
+        
+     }
+     .tokin-five img{
+        height: 50px;
+        width: 50px;
+        margin: 20px 80px;
+        border-radius: 50px;        
+ }
+ .tokin-five h4{
+    padding: 5px 75px;
+ }
+ .tokin-five p{
+     padding: 0px 30px;
+     color: rgb(179, 177, 177);
+ }
+ .tokin-five p b{
+    color: #03a66d;
+ }
+ .tokin-five #round{
+    border-radius:50px;
+    height: 40px;
+    margin: 0px 85px;
+    width: 40px;
+    padding:0px;
+    background-color: rgb(210, 210, 210);
+    border: none;
+    color: black;
+ }
+
+
+
+     .tokin-card2{
+        height: 300px;
+        width: 1211px;
+        background-color: rgb(248, 250, 247);
+        padding: 10px 20px;
+        display: flex;
+        gap: 20px;
+        
+     }
+     .btn{
+        margin: 0px 30px;
+     }
+    .explore-hone h1{
+        
+        width: 90%;
+        margin:0px 80px;
+        
+    }
+     .Explor{
+        height: 300px;
+        width: 90%;
+        
+        margin: 0px 80px;
+        padding: 100px 0px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        
+     }
+      .card img{
+        height: 217px;
+        width: 286px;
+     }
+     
+     #explore-btn{
+        margin: 430px 100px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+
+
+   /*  <------------------------crypto-exchange---------------->*/
+
+     .crypto-exchange{
+          height: 700px;
+          width: 90%;
+          
+          margin: -370px 80px;
+          padding: 10px 20px;
+     }
+     .crypto-exchange h1 {
+      
+      
+     }
+     .exchange-parent{
+      height: 600px;
+      width: 100%;
+      
+      margin: 0px 0px;
+      padding: 0px 0px;
+      display: flex;
+      justify-content: space-around;
+     }
+     .exchange-child1{
+      height: 570px;
+      width: 550px;
+      
+
+     }
+     .secure-asset1{
+      display: flex;
+      margin: 10px 5px;
+      gap: 20px;
+     }
+     #Secure-Asset h3{
+      font-size:25px;
+           
+     }
+     
+   .exchange-child2{
+      height: 570px;
+      width: 550px;
+      
+
+     }
+
+     .exchange-child2 img{
+      height: 400px;
+      width: 550px;
+      margin:70px 0px ;
+     }
+
+     #btn123{
+      margin: 350px 100px;
+      font-family: Arial, Helvetica, sans-serif;
+
+     }
+
+
+
+
+
+     .anywhere{
+      height: 120px;
+      width: 92%;
+      
+      margin: -300px 65px;
+      padding: 10px 20px;
+     }
+     .anywhere p{
+       font-size: 20px;
+       color: rgb(187, 186, 186);
+     }
+     .anywhere-one{
+      height: 500px;
+      width: 92%;
+      background-color: rgb(239, 236, 242);
+      margin: 290px 65px;
+      display: flex;
+     }
+     .anywhere-image img{
+      height: 500px;
+      width: 700px;
+      padding: 10px 0px;
+      
+
+     }
+     .anywhere-logos{
+      height:500px;
+      width: 542px;
+      
+     }
+
+     .logos-hading{
+      height: 150px;
+      width:500px;
+      
+      margin: 10px 25px;
+      display: flex;
+     }
+     .logos-hading img{
+      height:150px;
+      width: 150px;
+      cursor: pointer;
+     }
+     .logos-hading p{
+      height:150px;
+      width: 150px;
+     }
+
+     #ppp p{
+      margin: 30px 30px;
+      font-size: 17px;
+      font-weight: bold;
+      color: gray;
+     }
+
+     #ppp  h3{
+      margin:-150px 30px;
+      font-size: 25px;
+      font-weight: bold;
+      
+     }
+     .logos{
+      background-color: #03a66d;
+      height: 300px;
+      width: 450px;
+      margin: 10px 40px;
+      display: flex;
+      justify-content: space-around;
+     }
