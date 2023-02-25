@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -60,16 +61,32 @@
 .gift-icon i{
     color: #fcd535;
 }
-.sign-btn i p{
-    height: 40px;
-    width: 200px;
-    background-color: #fcd535;
-    text-align: center;
-    
-    
+#sign-btn-22{
+    height: 50px;
+    width: 400px;
 }
 
-
+.p-cuntinue{
+   margin: 10px 70px;
+   color: gray;
+}
+.buttns{
+   display: flex;
+}
+#google-btn{
+   background-color: rgb(233, 233, 233);
+}
+#google-btn img{
+   height: 15px;
+   width: 15px;
+}
+#apple-btn{
+   background-color: rgb(231, 231, 231);
+}
+#apple-btn img{
+height: 15px;
+width: 15px;
+}
 
 
 
@@ -211,7 +228,7 @@
         height: 600px;
         width: 90%;
         margin: 0px 80px;
-        background-color: rgb(105, 113, 113);
+        background-color: rgb(238, 242, 242);
         display: flex;
         justify-content: space-between;
      }   
@@ -270,7 +287,7 @@
      .btn-two{
         width: 90%;
         padding: 10px 90px;
-        background-color: rgb(105, 113, 113);
+        background-color: rgb(242, 245, 245);
         margin: 0px 80px;
      }
 
@@ -294,7 +311,7 @@
      .tokin-card1{
         height: 300px;
         width: 1211px;
-        background-color: rgb(232, 236, 232);
+        background-color: rgb(244, 246, 244);
         padding: 20px 20px;
         display: flex;
         gap: 20px;
@@ -303,7 +320,7 @@
     .tokin-one{
         height: 250px;
         width: 260px;
-        background-color: #ffcc00;
+        border-radius: 20px;
         
      }
      .tokin-one img{
@@ -335,7 +352,7 @@
     .tokin-two{
         height: 250px;
         width: 260px;
-        background-color: #ffcc00;
+        border-radius: 20px;
         
      }
      .tokin-two img{
@@ -367,7 +384,8 @@
     .tokin-three{
         height: 250px;
         width: 260px;
-        background-color: #ffcc00;
+        border-radius: 20px;
+        
         
      }
      .tokin-three img{
@@ -399,7 +417,8 @@
     .tokin-four{
         height: 250px;
         width: 260px;
-        background-color: #ffcc00;
+        border-radius: 20px;
+        
         
      }
      .tokin-four img{
@@ -431,7 +450,8 @@
     .tokin-five{
         height: 250px;
         width: 260px;
-        background-color: #ffcc00;
+        background-color: #fafafa;
+        border-radius: 20px;
         
      }
      .tokin-five img{
@@ -460,6 +480,15 @@
     border: none;
     color: black;
  }
+ .tokin-card1  :hover{
+      border: 1px solid #fcd535 ;
+      cursor: pointer;
+
+
+ }
+ 
+
+ 
 
 
 
@@ -472,6 +501,10 @@
         gap: 20px;
         
      }
+.tokin-card2 :hover{
+   border: 1px solid #fcd535 ;
+}
+
      .btn{
         margin: 0px 30px;
      }
@@ -634,3 +667,124 @@
       display: flex;
       justify-content: space-around;
      }
+
+
+
+
+     .need-help{
+      height: 250px;
+      width: 90%;
+      
+      margin: -100px 80px;
+     }
+     .need-help-h1 h1{
+
+      padding: 0px 20px;
+      font-size: 50px;
+
+     }
+     .hading-help p{
+      color: gray;
+     }
+     #flex{
+      display: flex;
+      gap: 20px;
+      padding: 50px 40px;
+     }
+
+
+     .support{
+      display: flex;
+     }
+
+
+
+     .earning{
+      height: 300px;
+      width: 90%;
+      background-color: rgb(247, 246, 246);
+      margin: 150px 80px;
+     }
+
+
+
+
+
+
+     #earning-h1 h1{
+           padding:50px 430px ;
+           padding-top: 100px;
+     }
+
+     #earning-btn{
+      margin: -40px 490px;
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border: none;
+      width: 220px;
+      height: 50px;
+     }
+
+
+
+
+
+     .fotter{
+      height: 500px;
+      width: 100%;
+      
+      margin:-100px 0px;
+      padding: 30px 60px;
+      display: flex;
+      gap: 10px;
+      
+      
+     }
+     .list{
+      border-bottom: 1px solid rgb(124, 123, 123);
+      width:100%;
+      padding: 0px 50px;
+      
+     }
+     #list-fotter{
+      height: 100px;
+      width: 100%;
+      
+      margin: 50px 0px;
+      padding: 150px 200px;
+     }
+     #list-fotter p{
+          padding: 120px 420px;
+     }
+
+     .fotter-one a{
+           text-decoration: none;
+           color: rgb(106, 106, 106);
+     }
+     
+     .fotter-one ul {
+        list-style: none;
+        text-decoration: none;
+     }
+     .fotter-one ul :hover {
+            color: black;
+     }
+
+      .community {
+      
+       height: 350px;
+       width: 230px;
+       display: flex;
+       padding: 10px 20px;
+       margin: 10px 50px;
+     }
+     #coin img{
+      height: 50px;
+      width: 50px;
+     }
+     #telegram i{
+      height: 30px;
+      width: 30px;
+      
+     }
+     
