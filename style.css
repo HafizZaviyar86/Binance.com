@@ -18,18 +18,99 @@
     font-weight: 20px;
     
 }
+#binance-text{
+   color: rgb(251, 206, 29);
+   font-size: 20;
+   font-family: inherit;
+}
 .nav-link {
     text-decoration: none;
 }
 .min-navbar {
-    height: 30px;
+    height: 35px;
     text-align: center;
-    background-color:#ffd52c9a;
+    background-color:#f5df879a;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ #redeem1 p{
+    height: 30px;
+    width: 150px;
+    background-color: #fcd535;
+    margin: 5px 5px;
 }
 
+.min-navbar p img{
+   color:#fcd535;
+   height: 20px;
+   width: 20px;
+}
+#login{
+   color: #000;
+   font-size:15px ;
+   font-weight: lighter;
+}
 
+#rigistration{
+     
+   color: #000;
+   font-size: 17px;
+   margin-right: 20px;
+   background-color: #fcd535;
+   height: 30px;
+   width: 112px;
+   padding: 2px 20px;
+   border-radius: 7px;
+   font-weight: lighter;
 
+}
+#rigistration img{
 
+   
+   height: 15px;
+   width: 15px;
+   
+}
+.QR-CODE {
+  margin-right: 30px;
+  width: 0px;
+  background-color: #fcd535;
+  
+}
+.QR-CODE img{
+   height: 22px;
+   width: 22px;
+   margin-right: 0px;
+}
+.world-icon{
+     margin-right: 10px;
+     
+}
+.world-icon img{
+
+}
+.line-1{
+   border-right: 2px solid gray ;
+   border-left: 2px solid gray ;
+   height: 25px;
+   margin-right: 13px;
+}
+
+.line-1 p{
+   padding: 0px 8px;
+   font-size: 15px;
+   font-weight: lighter;
+}
+.moon-icon{
+   
+}
+.moon-icon img{
+    height: 12px;
+    width: 12px;
+    margin-right: 35px;
+}
 
 
 
@@ -50,6 +131,8 @@
 }
 .side-two img{
     height: 420px;
+    margin-top: 80px;
+    margin-left: 80px;
 }
 .gift-icon{
     padding: 0px 30px;
@@ -58,8 +141,10 @@
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.gift-icon i{
+.gift-icon img{
     color: #fcd535;
+    height: 20px;
+    width: 20px;
 }
 #sign-btn-22{
     height: 50px;
@@ -162,13 +247,14 @@ width: 15px;
     width: 32px;
 }
 .pic-4{
-    height: 32px;   
-    width: 32px;
+    height: 42px;   
+    width: 42px;
 }
 .pic-5{
-    height: 32px;   
-    width: 32px;
+    height: 42px;   
+    width: 42px;
 }
+
 
 
 
@@ -523,19 +609,25 @@ width: 15px;
         display: flex;
         gap: 20px;
         justify-content: space-around;
-        
+   
      }
       .card img{
         height: 217px;
         width: 286px;
+        border-radius: 30px;
      }
      
      #explore-btn{
         margin: 430px 100px;
         font-family: Arial, Helvetica, sans-serif;
      }
-
-
+        
+     .Explor :hover{
+      color: gray;
+      box-shadow: gray 50px;
+      
+     }
+      
 
    /*  <------------------------crypto-exchange---------------->*/
 
